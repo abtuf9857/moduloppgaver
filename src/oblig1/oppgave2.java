@@ -1,3 +1,10 @@
+//Gruppe 73
+//Abdurahim Mustafa Tufa 385569
+//Abdirahman Mohammed Hassan 385544
+//Abdi Aziz Alinor Sharif 375054
+
+
+
 package oblig1;
 
 import static javax.swing.JOptionPane.showInputDialog;
@@ -52,6 +59,7 @@ class Vare {
 
     }
 
+    //metode for å regne totalpris
     public double totalpris() {
         return getPris() * getAntall();
     }
@@ -92,8 +100,8 @@ class main {
 
         Vare vare1 = new Vare(vare1Navn, antall1vare, pris1vare);
         Vare vare2 = new Vare(vare2Navn, antall2vare, pris2vare);
+        System.out.print("Totalprisen ble: ");
         System.out.println(vare1.totalpris()+vare2.totalpris());
-        System.out.println("Totalprisen ble:");
 
     }
 

@@ -1,3 +1,8 @@
+//Gruppe 73
+//Abdurahim Mustafa Tufa 385569
+//Abdirahman Mohammed Hassan 385544
+//Abdi Aziz Alinor Sharif 375054
+
 package oblig1;
 
 //oblig1oppgave1
