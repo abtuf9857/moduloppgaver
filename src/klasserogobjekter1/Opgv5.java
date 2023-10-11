@@ -1,4 +1,4 @@
-package oppgaver;
+package klasserogobjekter1;
 
 class Kalkulator {
     public static double addere(double tall1, double tall2) {

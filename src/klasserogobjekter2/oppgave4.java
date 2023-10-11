@@ -1,5 +1,7 @@
 package klasserogobjekter2;
 
+import java.sql.SQLOutput;
+
 class Klokke {
     private int timer;
     private int minutter;
@@ -8,9 +10,9 @@ class Klokke {
     
 
     public Klokke (int timer, int minutter, int sekunder){
-        this.timer=timer;
-        this.minutter=minutter;
-        this.sekunder=sekunder;
+        setTimer(timer);
+        setMinutter(minutter);
+        setSekunder(sekunder);
 
     }
     public int getTimer() {
@@ -41,6 +43,17 @@ class Klokke {
         if (sekunder>=0 && sekunder<=59){
         this.sekunder = sekunder;
         }
+    }
+   public void visTiden(){
+       System.out.println(timer+" : "+minutter+" : "+sekunder+" : ");
+   }
+}
+public class oppgave4{
+    public static void main(String[]args){
+     Klokke tid1= new Klokke(12,45,01);
+     tid1.visTiden();
+     Klokke tid2= new Klokke (11,34,67);
+     tid2.visTiden();
     }
 
 }

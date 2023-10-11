@@ -1,4 +1,4 @@
-package oppgaver;
+package klasserogobjekter1;
 
 import static javax.swing.JOptionPane.*;
 

@@ -1,4 +1,4 @@
-package oppgaver;
+package klasserogobjekter1;
 
 class Person {
 public String navn;
