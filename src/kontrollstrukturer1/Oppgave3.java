@@ -1,5 +1,7 @@
-package kontrollstrukturer1;
+/*Gjør oppgave 2 ved hjelp av en else-setning (i tillegg til en if).
+ */
 
+package kontrollstrukturer1;
 import static javax.swing.JOptionPane.*;
 public class Oppgave3 {
     public static void main(String []args){
