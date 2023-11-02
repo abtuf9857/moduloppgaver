@@ -1,7 +1,24 @@
+/*Lag en klasse kalt BensinKjøp for å representere informasjon om kjøp av bensin. Klassen
+skal ha 5 private attributter:
+
+Bensinstasjonens sted (en streng)
+Type bensin (en streng)
+Antall liter fylt (et desimaltall)
+Prisen pr. liter (et desimaltall)
+Tidspunkt fylt (en streng)
+
+Klassen skal ha en konstruktør som initialiserer alle attributtene. Lag også get/set metoder for disse.
+Lag så en metode finnTotalPrisen. Denne skal ikke ha noen parametere inn, men skal returnere prisen som
+et desimaltall. Metoden skal da multiplisere antall liter fylt med prisen pr. liter.
+
+Lag så kode i main for å teste ut denne klassen. Bruk String.format("%.2f", prisen); for å få to desimaler.
+
+ */
 package klasserogobjekter2;
 
 import java.sql.SQLOutput;
 
+//klasse med 5 attributter
 class BensinKjøp {
     private String Bensinstasjonenssted;
     private String typebensin;
@@ -9,6 +26,7 @@ class BensinKjøp {
     double prisen_pr_liter;
     private String Tidspunkt_fylt;
 
+    //metode for å finne totalprisen
     public double finnTotalprisen(){
         return antall_literfylt * prisen_pr_liter;
     }
@@ -52,6 +70,7 @@ class BensinKjøp {
         Tidspunkt_fylt = tidspunkt_fylt;
     }
 
+    //konstruktør av klassen BensinKjøp
     private BensinKjøp (String Bensinstasjonenssted,String typebensin,Double antall_literfylt,Double prisen_pr_liter,
                         String Tidspunkt_fylt){
         this.Bensinstasjonenssted=Bensinstasjonenssted;
@@ -62,6 +81,7 @@ class BensinKjøp {
 
 
     }
+    //metode for å kjøre programmet
     public static void main (String[]args) {
      BensinKjøp Sted= new BensinKjøp("" ,"",44.0,24.0,""
      );
