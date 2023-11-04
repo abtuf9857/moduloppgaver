@@ -1,5 +1,8 @@
-package kontrollstrukturer2;
+/*Lag en forløkke som summerer alle partallene fra 0 til 100 og viser gjennomsnittet (0 til og med 99)
 
+ */
+
+package kontrollstrukturer2;
 public class Oppgave4 {
     public static void main(String[]args){
         int sum=0;

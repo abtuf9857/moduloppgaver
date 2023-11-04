@@ -1,6 +1,6 @@
-package Arrays;
 //Lag et program som sjekker om to heltalls-arrays er like.
 //Bruk løkker, ikke innebygd java klasse/metode.
+package Arrays;
 public class Oppgave6 {
     public static void main(String[]args){
         int[] liste1 = {45, 34, 5, 8, 10, 2, 13, 25};

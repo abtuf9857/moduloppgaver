@@ -1,5 +1,8 @@
-package Arrays;
+/*Bruk arrayet i oppgave 4 og skriv kode for å finne det største og minste tallet i arrayet via
+en løkke. Tips: Sett største og minste tallet til første elementet i arrayet før løkken.
+ */
 
+package Arrays;
 public class Oppgave5 {
     public static void main(String[] args) {
         int[] liste = {45, 34, 5, 8, 10, 2, 13, 25};

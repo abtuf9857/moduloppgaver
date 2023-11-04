@@ -1,3 +1,4 @@
+/*Lag en forløkke som summerer alle tallene fra 0 til 10 og viser summen (0 til og med 9) */
 package kontrollstrukturer2;
 
 public class Oppgave2 {
@@ -6,7 +7,7 @@ public class Oppgave2 {
         for(int i=0; i<10;i++){
             sum+=i;
         }
-        System.out.print("Summen av tallene mellom 0 og 9 er "+sum);
+        System.out.println("Summen av tallene mellom 0 og 9 er "+sum);
     }
 
 }

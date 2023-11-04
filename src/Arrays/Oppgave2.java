@@ -1,3 +1,7 @@
+/*Bruk arrayet i oppgave 1. Summer alle tallene med en for-løkke. Finn så gjennomsnittet av
+alle tallene. Summer så alle tallene som er større enn 5. Finn så gjennomsnittet av disse.
+Summer så tallene med en forenklet for-løkke.
+ */
 package Arrays;
 
 public class Oppgave2 {

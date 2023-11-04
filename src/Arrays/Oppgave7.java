@@ -1,5 +1,5 @@
-package Arrays;
 //Lag et program som teller opp antall partall og antall oddetall i et helttalls-array.
+package Arrays;
 public class Oppgave7 {
     public static void main(String []args){
         int[] liste = {45, 34, 5, 8, 10, 2, 13, 25};

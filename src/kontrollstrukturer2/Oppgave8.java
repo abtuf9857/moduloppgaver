@@ -1,5 +1,8 @@
-package kontrollstrukturer2;
+/*Lag en while-løkke som summerer alle partallene fra 0 til 100 og viser gjennomsnittet
+(0 til og med 98).Finn også gjennomsnittet.
+ */
 
+package kontrollstrukturer2;
 public class Oppgave8 {
     public static void main(String []args){
         int sum=0;

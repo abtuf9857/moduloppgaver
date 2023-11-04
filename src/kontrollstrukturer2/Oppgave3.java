@@ -1,3 +1,5 @@
+/*Lag en forløkke som viser alle partall mellom fra 0 til 20 med et mellomrom mellom tallene
+(0 til og med 18). */
 package kontrollstrukturer2;
 
 public class Oppgave3 {
