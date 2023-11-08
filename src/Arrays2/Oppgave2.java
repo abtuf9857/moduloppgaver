@@ -7,33 +7,19 @@ package Arrays2;
 import java.util.ArrayList;
 public class Oppgave2 {
     public static void main(String[]args){
-        ArrayList<Integer>liste=new ArrayList<Integer>();
+        ArrayList<Integer>liste=new ArrayList<>();
+        for(int i =1; i<10;i++){
+            liste.add(i);
+        }
 
-        liste.add(1);
-        liste.add(2);
-        liste.add(3);
-        liste.add(4);
-        liste.add(5);
-        liste.add(6);
-        liste.add(7);
-        liste.add(8);
-        liste.add(9);
         liste.add(10);
         liste.add(11);
+        liste.remove(1);
+        liste.remove(1);
 
-        int indeks=liste.indexOf(2);
-        liste.remove(3);
-
-        indeks = liste.indexOf(3);
-        liste.remove(4);
-
-
-
-
-        for(int i=0; i<11;i++){
+        for (int i=0; i< liste.size();i++){
+            System.out.println(liste.get(i)+" ");
         }
-        System.out.println(liste.size());
-
     }
 
 }

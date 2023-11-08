@@ -109,9 +109,10 @@ class UnikeTall {
 
         }
 
-        String s = String.format("Minste: %d", tall.minsteTall());
-        s = "\n" + String.format("Gjsnitt: %.2f", tall.gjennomsnitt());
-        JOptionPane.showMessageDialog(null, s);
+        String minstetall = String.format("Minste: %d", tall.minsteTall());
+        String gjennomsnitt = "\n" + String.format("Gjennomsnitt: %.2f", tall.gjennomsnitt());
+        String størsteTall = "\n"+String.format("Største: %d", tall.størsteTall());
+                JOptionPane.showMessageDialog(null,minstetall+gjennomsnitt+størsteTall );
 
 
     }}
