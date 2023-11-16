@@ -1,6 +1,5 @@
-package MeromKlasserogObjekter1;
 
-import java.util.Arrays;
+package Arv;
 
 class Dato {
     private final int dag;
@@ -61,10 +60,10 @@ class Motorsykkel extends Kjøretøy {
         super(typebetegnelse, førstegangsregistrert, kjennetegn);
     }
 }
-class Bil extends Kjøretøy{
+class Bil extends Kjøretøy {
 
     public int lastekapasitet;
-    public Bil(String typebetegnelse,Dato førstegangsregistrert, String Kjennetegn,int lastekapasitet){
+    public Bil(String typebetegnelse, Dato førstegangsregistrert, String Kjennetegn, int lastekapasitet){
         super(typebetegnelse, førstegangsregistrert, Kjennetegn);
         this.lastekapasitet=lastekapasitet;
 
@@ -79,20 +78,20 @@ class Bil extends Kjøretøy{
     }
 }
 
-public class Motorvogn {
+public class Arv {
 
     public static void main(String[] args) {
         // opprett et array av Biler
         // Sett inn noen biler i arrayet
 
-        Kjøretøy[] kjøretøy = new Bil[4];
+        Kjøretøy[] kjøretøy = new Kjøretøy[4];
         Bil bil1 = new Bil("Audi A6", new Dato(16, 11, 2020), "TU12",1000);
         kjøretøy[0] = bil1;
         Bil bil2 = new Bil("Merces C63", new Dato(15, 11, 2021), "TU11",1000);
         kjøretøy[1] = bil2;
         Bil bil3 = new Bil("BMW 5 SERIE", new Dato(17, 11, 2022), "TU10",1000);
         kjøretøy[2] = bil3;
-        kjøretøy[3] = new Bil("Toyota Prius", new Dato(18, 11, 2023), "Tu9",1000);
+        kjøretøy[3] = new Motorsykkel("Toyota Prius", new Dato(18, 11, 2023), "Tu9");
 
         // List motorvognregisteret (arrayet) ved hjelp av en løkke
         for (int i = 0; i < kjøretøy.length; i++) {
