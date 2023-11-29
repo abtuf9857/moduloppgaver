@@ -1,16 +1,19 @@
 package exam2020;
 
+//super klasse
 class Person{
     private String navn;
     private String personnummer;
     private int alder;
 
+    //konstruktør
     public Person(String navn,String personnummer,int alder){
         this.navn=navn;
         this.personnummer=personnummer;
         this.alder=alder;
 
     }
+    //toString metode for å skrive ut attributtene
     public String toString(){
         String ut=" Personinfo : ";
         ut+=" Navn til person er : "+this.navn+"\n";
@@ -19,6 +22,7 @@ class Person{
         return ut;
     }
 }
+//sub klasse for Person
 class Pasient extends Person {
     private String diagnose;
 
@@ -34,6 +38,7 @@ class Pasient extends Person {
 
     }
 }
+//subklasse for superklassen Person
 class Lege extends Person{
     Pasient[] pasienter=new Pasient[100]; // [{navn:sinan, diagnose:hjertefeil}, {navn: tufa, diagnose:pollen}]
 
