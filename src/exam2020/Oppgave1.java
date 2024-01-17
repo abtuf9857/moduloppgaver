@@ -35,9 +35,8 @@ public static void main(String []args) {
         double Fahrenheitgrader = Double.parseDouble(tilfeldigTall);
         double Celsiusgrader = (Fahrenheitgrader - 32) / 1.8;
         String CelsiusgraderMedToDesimaler = String.format("%.2f", Celsiusgrader);
-
-
         showMessageDialog(null, "Er " + CelsiusgraderMedToDesimaler + " Celsiusgrader");
+
     } else showMessageDialog(null, "Det må skrives inn F eller C");
 }
     }

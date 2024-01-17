@@ -1,6 +1,4 @@
-
 package exam2021;
-
 
 
 public class Oppgave1 {
@@ -35,5 +33,5 @@ Resultatet skal skrives ut på System.out. Skriv kode for å finne gjennomsnitte
         snitt = (double) sum / teller;
         System.out.println("Gjennomsnittet er : " + snitt);
     }
-        }
+}
 

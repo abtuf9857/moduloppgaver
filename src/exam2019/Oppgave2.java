@@ -28,7 +28,7 @@ class Trekning {
                     funnet = true;
                 }
             }
-            //Hva gjør denne?
+            //Hvis vinner ikke er funnet må det gå en gang til
             if (!funnet) {
                 vinnere[i] = random;
                 i++;
